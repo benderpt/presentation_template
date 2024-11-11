@@ -4,8 +4,15 @@ from scripts.components import configure_page
 # Chama a função para configurar a página e a sidebar
 configure_page()
 
-# Título da página
-st.title("Aplicações desenvolvidas")
+# Título centralizado e aumentado
+st.markdown(
+    """
+    <h1 style="text-align: center; font-size: 4em;">
+        Aplicações desenvolvidas
+    </h1>
+    """,
+    unsafe_allow_html=True
+)
 
 # Adiciona CSS para centralizar o texto e expandir os botões
 st.markdown(
