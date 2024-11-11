@@ -16,7 +16,7 @@ def sidebar():
 
     st.sidebar.subheader("DESENVOLVIMENTO DE WEBAPPS")
 
-    st.sidebar.image("assets\characters_robot_alt.png")
+    st.sidebar.image("assets/characters_robot_alt.png")
 
 
 
