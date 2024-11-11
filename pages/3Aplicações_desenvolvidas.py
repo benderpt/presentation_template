@@ -77,8 +77,4 @@ elif selected_option == "Quizz":
 
 
 elif selected_option == "Portal":
-    st.header("Portal")
-    st.write("""
-        - **Projeção de um posicionamento inovador de marca**: Envolver a marca em soluções modernas e tecnológicas.
-        - **Proposta de valor**: Foco em soluções baseadas em dados, código e controlo da experiência do utilizador.
-    """)
+    st.image("assets/portal.png")
